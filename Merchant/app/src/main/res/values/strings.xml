@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Laundromat Merchant</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_error_1">Requested permissions are necessary to use this application. Try again later</string>
+    <string name="google_maps_api_key">AIzaSyDrOQdtldEc33ikYowucIb25JHGBDhbnRk</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="message_pickup_sent">Pickup request sent. you will be notified once your request has been accepted or rejected.</string>
+    <string name="message_pickup_failed">Could not find a rider nearby. Please try again later</string>
+    <string name="message_pickup_started">Pickup Started</string>
+    <string name="message_trip_status">You will be notified once the rider picks up the items</string>
+    <string name="message_picked_up">Items picked up for collection</string>
+    <string name="message_pickup_up_status">Get ready! The rider will arrive soon to deliver your order items</string>
+    <string name="discount_text"><b>Discount On Orders</b>\nEnter the discount amount in percentage\ni.e 10%</string>
+
+    <string name="phone_number_info"><b>Phone Number</b>\nEnter your 11 digit phone number\ni.e. 03123456789</string>
+    <string name="email_info"><b>Email</b>\nEnter your email in a valid format\nie. abc@zyz.com</string>
+    <string name="password_info"><b>Password</b>\nPassword should be atleast 6 characters long</string>
+    <string name="new_password_info"><b>New Password</b>\nPassword should be atleast 6 characters long</string>
+    <string name="jazzcash_info"><b>Jazz Cash ID</b>\nEnter your 7 characters jazz cash ID</string>
+    <string name="nic_info"><b>NIC Number</b>\nEnter your 13 digits NIC Number\ni.e. 1234567891234</string>
+    <string name="pickup_note">Get Ready! Rider will arrive soon to pickup the delivery items\n<b>(You will pay the delivery fee)</b></string>
+</resources>

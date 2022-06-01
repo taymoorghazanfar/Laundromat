@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.OrderRequestActivity">
+
+    <include layout="@layout/toolbar_order_request" />
+
+    <include layout="@layout/layout_loading" />
+
+    <include layout="@layout/layout_request_declined" />
+
+    <include layout="@layout/layout_order_request" />
+
+    <View
+        android:id="@+id/layout_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/layout_order_request_footer"
+        android:background="@color/colorLine" />
+
+    <include layout="@layout/footer_order_request" />
+
+</RelativeLayout>

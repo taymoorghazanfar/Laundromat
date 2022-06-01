@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Laundromat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_error_1">Requested permissions are necessary to use this application. Try again later</string>
+    <string name="google_maps_api_key">AIzaSyDrOQdtldEc33ikYowucIb25JHGBDhbnRk</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="cart_not_empty">Your cart already has some items from another laundry. would you like to remove them ?</string>
+    <string name="message_pickup_started">Pickup Started</string>
+    <string name="message_trip_status">Get Ready! The rider will arrive soon at your location to pickup the items</string>
+    <string name="message_picked_up">Delivering To Laundry</string>
+    <string name="message_order_picked_up">You items are being sent to the laundry for washing</string>
+    <string name="message_collected">Order Collected For Washing</string>
+    <string name="message_collected_status">You will be notified once the laundry starts washing your items</string>
+    <string name="message_washing">Washing your items</string>
+    <string name="message_washing_detail">You order items are currently being washed</string>
+    <string name="message_washed">Items Washed</string>
+    <string name="washed_detail">Your items have been washed. You will be notified once the laundry books a rider for delivery</string>
+    <string name="phone_number_info"><b>Phone Number</b>\nEnter your 11 digit phone number\ni.e. 03123456789</string>
+    <string name="email_info"><b>Email</b>\nEnter your email in a valid format\nie. abc@zyz.com</string>
+    <string name="password_info"><b>Password</b>\nPassword should be atleast 6 characters long</string>
+    <string name="new_password_info"><b>New Password</b>\nPassword should be atleast 6 characters long</string>
+    <string name="pickup_note">Get ready! The rider will soon arrive at your location for pickup\n<b>(You will pay the pickup fee)</b></string>
+</resources>

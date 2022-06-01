@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CheckoutActivity">
+
+    <include layout="@layout/layout_loading" />
+
+    <include layout="@layout/toolbar_checkout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_line"
+        android:layout_below="@+id/toolbar">
+
+        <include layout="@layout/layout_checkout_details" />
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/layout_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/layout_checkout"
+        android:background="@color/colorLine" />
+
+    <include layout="@layout/layout_checkout" />
+
+</RelativeLayout>

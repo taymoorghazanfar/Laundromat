@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TripActivity">
+
+    <include layout="@layout/toolbar_trip" />
+
+    <include layout="@layout/layout_loading" />
+
+    <include layout="@layout/layout_trip" />
+
+    <View
+        android:id="@+id/layout_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/layout_trip_footer"
+        android:background="@color/colorLine" />
+
+    <include layout="@layout/footer_trip" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_checkout_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/button_proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:foreground="@drawable/ripple_anim"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/text_view_quantity"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/layout_price"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Checkout (6 Items)"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/layout_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_discount_given"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discount: PKR 10"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/text_view_price"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="20dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="PKR 150.00"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:drawableEndCompat="@drawable/ic_cart"
+                app:drawableTint="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

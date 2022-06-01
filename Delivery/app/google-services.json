@@ -1,0 +1,158 @@
+{
+  "project_info": {
+    "project_number": "364149245693",
+    "project_id": "laundromat-317518",
+    "storage_bucket": "laundromat-317518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364149245693:android:d7b33a3442f0c3eec0a094",
+        "android_client_info": {
+          "package_name": "com.laundromat.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364149245693-1pq60vpvkts5iuuocjsflqk9ugi6l4h2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laundromat.admin",
+            "certificate_hash": "5f74fdbbf21fc7d187051b7c4acc4fd4cb1ae2c5"
+          }
+        },
+        {
+          "client_id": "364149245693-jtu7l8h734v03h6glhvpnpdbl94odavk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfyC82iUYV5kx_DBlWE2SvsZiZw5giU9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364149245693-jtu7l8h734v03h6glhvpnpdbl94odavk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364149245693:android:9f6fca130eb7816fc0a094",
+        "android_client_info": {
+          "package_name": "com.laundromat.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364149245693-kcl77lfkrdhunhhvu91ujiuur1q0k9md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laundromat.customer",
+            "certificate_hash": "5f74fdbbf21fc7d187051b7c4acc4fd4cb1ae2c5"
+          }
+        },
+        {
+          "client_id": "364149245693-jtu7l8h734v03h6glhvpnpdbl94odavk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfyC82iUYV5kx_DBlWE2SvsZiZw5giU9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364149245693-jtu7l8h734v03h6glhvpnpdbl94odavk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364149245693:android:a2cf02e08612e323c0a094",
+        "android_client_info": {
+          "package_name": "com.laundromat.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364149245693-glh0i5sd6prmaumvfmfk6krc9i0pqasi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laundromat.delivery",
+            "certificate_hash": "5f74fdbbf21fc7d187051b7c4acc4fd4cb1ae2c5"
+          }
+        },
+        {
+          "client_id": "364149245693-jtu7l8h734v03h6glhvpnpdbl94odavk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfyC82iUYV5kx_DBlWE2SvsZiZw5giU9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364149245693-jtu7l8h734v03h6glhvpnpdbl94odavk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364149245693:android:89631b0503511890c0a094",
+        "android_client_info": {
+          "package_name": "com.laundromat.merchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364149245693-3805c982b3rscf6aj55sbkm4geqcj64v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laundromat.merchant",
+            "certificate_hash": "5f74fdbbf21fc7d187051b7c4acc4fd4cb1ae2c5"
+          }
+        },
+        {
+          "client_id": "364149245693-jtu7l8h734v03h6glhvpnpdbl94odavk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfyC82iUYV5kx_DBlWE2SvsZiZw5giU9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364149245693-jtu7l8h734v03h6glhvpnpdbl94odavk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

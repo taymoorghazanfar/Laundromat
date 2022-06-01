@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_order_request_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:weightSum="2">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_decline"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7.5dp"
+        android:layout_weight="1"
+        android:background="#F44336"
+        android:text="Decline"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_accept"
+        style="@android:style/TextAppearance.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7.5dp"
+        android:layout_weight="1"
+        android:background="#4CAF50"
+        android:text="Accept"
+        android:textColor="@color/white" />
+
+</LinearLayout>

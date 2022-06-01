@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TripRequestActivity">
+
+    <include layout="@layout/toolbar_trip_request" />
+
+    <include layout="@layout/layout_loading" />
+
+    <include layout="@layout/layout_missed" />
+
+    <include layout="@layout/layout_request_declined" />
+
+    <include layout="@layout/layout_trip_request" />
+
+    <View
+        android:id="@+id/layout_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/layout_trip_request_footer"
+        android:background="@color/colorLine" />
+
+    <include layout="@layout/footer_trip_request" />
+
+</RelativeLayout>

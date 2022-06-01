@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MenuItemActivity">
+
+    <include layout="@layout/toolbar_menu_item" />
+
+    <include layout="@layout/layout_menu_item" />
+
+    <View
+        android:id="@+id/layout_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/layout_button"
+        android:background="@color/colorLine" />
+
+    <RelativeLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/button_add_to_order"
+            style="@android:style/TextAppearance.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:enabled="false"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:text="Add to order (PKR 0)"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

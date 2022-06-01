@@ -1,0 +1,2 @@
+rootProject.name = "Laundromat Admin"
+include ':app'
